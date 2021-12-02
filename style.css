@@ -1,0 +1,101 @@
+:root{
+    --primary-text: hsl(229, 23%, 23%);
+    --secondary-text: hsl(227, 10%, 46%);
+    --bg-color: hsl(185, 75%, 39%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.age{
+    color: var(--secondary-text);
+}
+
+.background-top{
+    background-image: url(./images/bg-pattern-card.svg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 150px;
+    width: 340px;
+
+}
+
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-text);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.city{
+    color: var(--secondary-text);
+    font-size: 16px;
+    padding: 10px 0 30px 0;
+}
+
+.frontImg{
+    border-radius: 50%;
+    position: absolute;
+    left: 33%;
+    bottom: 49%;
+    border: 5px solid #ffffff;
+}
+
+hr{
+    opacity: 0.3;
+}
+
+main{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 375px;
+    max-width: 340px;
+    position: relative;
+
+}
+
+.name{
+    display: inline;
+    margin-right: 0.5rem;
+    font-weight: 700;
+}
+
+.statsDiv{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px 30px 20px;
+}
+
+.statsName{
+    color: var(--secondary-text);
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    padding-top: 5px;
+}
+
+.statsNumber{
+    font-weight: 700;
+}
+
+.user{
+    padding-top: 4.5rem;
+    text-align: center;
+    background-color: #ffffff;
+    height: 250px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
